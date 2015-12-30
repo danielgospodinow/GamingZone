@@ -1,0 +1,12 @@
+Filesystem     1024-blocks       Used  Available Capacity Mounted on
+/dev/sda4          7055288    2887612    3809276      44% /
+tmpfs              8150332          0    8150332       0% /dev/shm
+/dev/sdb3       2849007128 1188805968 1515479908      44% /backup
+/dev/sda1           198337      55425     132672      30% /boot
+/dev/sdb1         20158332    2825392   16308940      15% /domlogs
+/dev/sda8       2836709736  660228656 2032384468      25% /home
+/dev/sda7          2015824     206272    1707152      11% /tmp
+/dev/sdb2         15118728     168576   14182152       2% /tmp/cache
+/dev/sda2         17134420    8008620    8255400      50% /usr
+/dev/sda3         13103024   10650816    1786608      86% /var
+/dev/sdc1        115377640   13941812   95574916      13% /var/lib/mysql

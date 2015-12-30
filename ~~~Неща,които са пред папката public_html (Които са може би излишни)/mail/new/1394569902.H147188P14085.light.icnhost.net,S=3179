@@ -1,0 +1,73 @@
+Return-path: <>
+Envelope-to: gaming8@light.icnhost.net
+Delivery-date: Tue, 11 Mar 2014 22:31:42 +0200
+Received: from mailnull by light.icnhost.net with local (Exim 4.82)
+	id 1WNTKv-0003ev-QW
+	for gaming8@light.icnhost.net; Tue, 11 Mar 2014 22:31:41 +0200
+X-Failed-Recipients: regularexpression@abv.bg
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@light.icnhost.net>
+To: gaming8@light.icnhost.net
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1WNTKv-0003ev-QW@light.icnhost.net>
+Date: Tue, 11 Mar 2014 22:31:41 +0200
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  regularexpression@abv.bg
+    SMTP error from remote mail server after RCPT TO:<regularexpression@abv.bg>:
+    host pmx.abv.bg [194.153.145.94]: 550 5.1.1 <regularexpression@abv.bg>:
+    Recipient address rejected: User unknown in virtual mailbox table
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <gaming8@light.icnhost.net>
+Received: from localhost ([127.0.0.1]:44294 helo=light.icnhost.net)
+	by light.icnhost.net with smtp (Exim 4.82)
+	(envelope-from <gaming8@light.icnhost.net>)
+	id 1WNTKv-0003ek-G6
+	for regularexpression@abv.bg; Tue, 11 Mar 2014 22:31:41 +0200
+X-SG-User: gaming8
+X-SG-Opt:  SCRIPT_FILENAME=/home/gaming8/public_html/forumbg/ucp.php  REQUEST_URI=/forumbg/ucp.php?mode=register&sid=65ed7fbb835d5d73bced4834181d3b72  PWD=/home/gaming8/public_html/forumbg  REMOTE_ADDR=93.183.162.116 
+To: =?UTF-8?B?dGVzdDE=?= <regularexpression@abv.bg>
+Subject: =?UTF-8?B?0JTQvtCx0YDQtSDQtNC+0YjQu9C4INCyICJHYW1pbmdab25lIg==?=
+X-PHP-Originating-Script: 1027:functions_messenger.php
+From: <gosho.angelow@live.com>
+Reply-To: <gosho.angelow@live.com>
+Sender: <gosho.angelow@live.com>
+MIME-Version: 1.0
+Message-ID: <edf440ab8613282a537558ca03c16d3f@gamingzone.bgschool.bg>
+Date: Tue, 11 Mar 2014 22:31:41 +0200
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: phpBB3
+X-MimeOLE: phpBB3
+X-phpBB-Origin: phpbb://gamingzone.bgschool.bg/forumbg
+X-AntiAbuse: Board servername - =?UTF-8?B?Z2FtaW5nem9uZS5iZ3NjaG9vbC5iZw==?=
+X-AntiAbuse: User_id - 1
+X-AntiAbuse: Username - =?UTF-8?B?QW5vbnltb3Vz?=
+X-AntiAbuse: User IP - 93.183.162.116
+
+Добре дошли в GamingZone форуми
+
+Пазете това съобщение, то съдържа важна информация.
+
+----------------------------
+Потребителско име: test1
+
+Адрес на форума: http://gamingzone.bgschool.bg/forumbg
+----------------------------
+
+Моля не забравяйте Вашата парола, защото тя е криптирана и ние не можем да
+Ви я пратим. Но в случай че я забравите, можете да поискате нова, която ще
+Ви бъде пратена по същия начин като тази.
+
+Благодарим Ви, че се регистрирахте!
+
+-- 
+Благодарим Ви!

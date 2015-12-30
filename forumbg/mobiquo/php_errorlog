@@ -1,0 +1,2 @@
+[10-Mar-2014 21:51:17 Europe/Sofia] XML-RPC: xmlrpc_server::execute: function get_alert_func registered as method handler does not return an xmlrpcresp object
+[10-Mar-2014 21:53:24 Europe/Sofia] XML-RPC: xmlrpc_server::execute: function get_alert_func registered as method handler does not return an xmlrpcresp object

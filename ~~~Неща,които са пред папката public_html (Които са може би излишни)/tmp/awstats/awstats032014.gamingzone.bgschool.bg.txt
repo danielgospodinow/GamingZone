@@ -1,0 +1,365 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201403 will be lost/reset.
+# Last config file used to build this data file was /home/gaming8/tmp/awstats/awstats.gamingzone.bgschool.bg.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2015                
+POS_TIME 2686                
+POS_VISITOR 7714                
+POS_DAY 9220                
+POS_DOMAIN 3386                
+POS_LOGIN 3656                
+POS_ROBOT 3811                
+POS_WORMS 3981                
+POS_EMAILSENDER 4112                
+POS_EMAILRECEIVER 4255                
+POS_SESSION 9734                
+POS_SIDER 9942                
+POS_FILETYPES 4390                
+POS_DOWNLOADS 4620                
+POS_OS 4668                
+POS_BROWSER 4802                
+POS_SCREENSIZE 5144                
+POS_UNKNOWNREFERER 5218                
+POS_UNKNOWNREFERERBROWSER 5498                
+POS_ORIGIN 5622                
+POS_SEREFERRALS 5762                
+POS_PAGEREFS 5906                
+POS_SEARCHWORDS 6144                
+POS_KEYWORDS 6296                
+POS_MISC 2350                
+POS_ERRORS 6355                
+POS_CLUSTER 3512                
+POS_SIDER_404 6467                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140401053539 1 0 7822313991790
+FirstTime 20140302120759
+LastTime 20140331211718
+LastUpdate 20140403033215 1 0 0 0 0
+TotalVisits 51                  
+TotalUnique 33                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 33                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 52 342 99196237 2 9 246
+1 0 0 0 0 0 0
+2 7 268 100335430 0 6 0
+3 2 41 5323955 0 2 0
+4 2 2 1373 0 0 0
+5 0 0 0 0 0 0
+6 1 1 687 0 0 0
+7 0 0 0 0 0 0
+8 8 27 1669155 0 6 0
+9 15 144 7905 0 0 0
+10 30 530 204193749 1 49 1785149
+11 72 659 204195604 1 20 246
+12 48 408 130936066 4 27 246
+13 10 263 95131814 1 3 246
+14 5 95 4892494 0 1 0
+15 34 666 106685135 1 14 246
+16 2 156 27600 0 0 0
+17 8 513 22960787 1 2 246
+18 2 254 35039154 0 5 0
+19 302 2053 444385212 4 96 738
+20 50 1931 247030621 6 71 207253
+21 240 3055 256714138 5 70 1584
+22 178 3292 465295240 4 83 32352
+23 0 137 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+bg 645 5763 1795896707
+eu 411 9062 628117595
+us 12 12 8054
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 2 1958 20140310214453 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 256 1318413 0 0
+png 1092 8275997 0 0
+php 821 4494384 0 0
+html 244 5037345 0 0
+js 862 19487933 0 0
+jpg 10835 2384994171 0 0
+Unknown 3 26640 0 0
+gif 724 387473 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 8
+linuxandroid 2
+winxp 99
+win2000 1
+winvista 10883
+win7 3676
+macosx 19
+winunknown 51
+Unknown 106
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+firefox28.0 511
+firefox3.5.6 103
+msie5.01 1
+android 2
+firefox21.0 19
+chrome31.0.1650.63 64
+opera9.80 24
+iphone 19
+chrome33.0.1750.117 492
+chrome32.0.1700.76 8898
+firefox14.0.1 6
+msie10.0 496
+chrome33.0.1750.154 268
+chrome33.0.1750.146 1391
+chrome30.0.1599.101 463
+Unknown 3
+firefox27.0 2077
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_Firefox/3.5.6_Tapatalk/1.0 20140327101218
+XML-RPC_for_PHP_3.0.0.beta 20140326061828
+Mozilla/5.0_Firefox/3.5.6_Tapatalk/4.4.8 20140311193529
+Mozilla/5.0_Firefox/3.5.6 20140310214629
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+XML-RPC_for_PHP_3.0.0.beta 20140326061828
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 118 171
+From1 0 0
+From2 0 0
+From3 7 7
+From4 943 14659
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://www.facebook.com 4 4
+http://www.facebook.com/l.php 2 2
+https://m.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 31 2021666
+301 20 4928
+404 370 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 13
+/GamingZoneEn/img/prev.png 20 http://gamingzone.bgschool.bg/GamingZoneEn/mediaen.html
+/img/prev.png 46 http://gamingzone.bgschool.bg/CSS/lightbox.css
+/img/loading.gif 42 http://gamingzone.bgschool.bg/CSS/lightbox.css
+/GamingZoneEn/IMAGES/MGT4/1.JPG 21 http://gamingzone.bgschool.bg/GamingZoneEn/mediaen.html
+/GamingZoneEn/img/next.png 20 http://gamingzone.bgschool.bg/GamingZoneEn/mediaen.html
+/forumbg/styles/we_universal/imageset/bg/icon_user_online.gif 50 http://gamingzone.bgschool.bg/forumbg/viewtopic.php
+/indexbg.html 8 http://gamingzone.bgschool.bg/index.html
+/GamingZoneEn/IMAGES/FAVICON1.png 7 -
+/img/close.png 42 http://gamingzone.bgschool.bg/CSS/lightbox.css
+/img/next.png 45 http://gamingzone.bgschool.bg/CSS/lightbox.css
+/GamingZoneEn/img/close.png 20 http://gamingzone.bgschool.bg/GamingZoneEn/mediaen.html
+/GamingZoneEn/img/loading.gif 20 http://gamingzone.bgschool.bg/GamingZoneEn/mediaen.html
+/IMAGES/FAVICON1.png 29 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 33
+185.26.182.38 243 763 115276520 20140331211718
+87.97.183.42 211 905 184620377 20140311224852
+185.26.182.35 107 4549 214747983 20140311222816
+93.183.162.116 91 669 215027464 20140311224852
+212.21.158.183 87 429 102350066 20140306120201
+87.97.187.185 46 99 2039689 20140310004041
+185.26.182.36 36 1749 156158623 20140320174445
+109.199.241.6 23 293 102024881 20140309120145
+87.97.182.225 23 304 104416042 20140311224958
+95.87.55.210 22 38 781690 20140311193529
+93.183.159.25 21 529 204252055 20140314085841
+212.5.158.14 19 19 20811 20140327101218
+95.87.57.176 18 290 101981607 20140309201927
+93.183.161.46 14 283 102023886 20140311222011
+212.5.158.108 13 13 7905 20140311090219
+50.17.254.140 12 12 8054 20140326061828
+93.183.160.150 10 463 178783096 20140328192428
+85.130.63.245 10 263 95131814 20140309134358
+93.183.158.150 10 426 154096406 20140308191233
+158.58.217.199 9 271 100638129 20140302155334
+185.26.182.29 9 55 4960719 20140330150758
+87.97.185.62 7 268 100335430 20140323021710
+185.26.182.37 6 266 101934596 20140302120941
+95.87.63.124 5 64 9637515 20140309201918
+185.26.182.32 3 207 0 20140312094701
+212.25.57.87 1 24 4762539 20140310030258
+195.24.91.83 1 19 1645238 20140315085203
+109.199.245.36 3 75 28794527 20140302120830
+185.26.182.34 1 155 0 20140310192218
+185.26.182.33 2 562 0 20140311151240
+93.183.161.208 1 19 2525540 20140309202735
+185.26.182.30 2 502 0 20140312163929
+185.26.182.31 2 254 35039154 20140309184331
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 18
+20140302 18 612 231367252 3
+20140306 88 451 107098159 2
+20140308 252 1165 264619098 2
+20140309 105 2998 557749293 9
+20140310 224 992 105524646 8
+20140311 299 6653 639922970 11
+20140312 3 502 0 3
+20140313 15 525 204255738 3
+20140314 7 8 23917 1
+20140315 1 19 1645238 1
+20140318 1 1 687 1
+20140320 8 81 22960787 1
+20140323 7 268 100335430 1
+20140326 1 1 687 1
+20140327 19 19 20811 1
+20140328 10 463 178783096 1
+20140330 9 55 4960719 1
+20140331 1 24 4753828 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 10
+30s-2mn 13
+15mn-30mn 2
+2mn-5mn 1
+0s-30s 17
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/forumbg/ucp.php 172 659730 0 1
+/ 111 952195 39 18
+/forumbg/mobiquo/mobiquo.php 110 100567 7 7
+/forumbg/viewtopic.php 95 609595 0 4
+/forumbg/viewforum.php 95 480823 0 1
+/forumbg/style.php 75 1028288 0 1
+/forumbg/index.php 69 327631 0 3
+/forumbg/cron.php 56 2408 0 5
+/mediabg.html 47 2410414 2 3
+/forumbg/posting.php 41 214713 0 0
+/GamingZoneEn/indexen.html 40 286002 0 3
+/forumbg/adm/index.php 34 123042 0 0
+/forumbg/ 25 117006 0 0
+/forumbg/mcp.php 18 64034 0 0
+/GamingZoneEn/mediaen.html 17 1260182 0 2
+/forumbg/download/file.php 13 610168 0 0
+/forumbg/memberlist.php 7 24938 0 0
+/forumbg/faq.php 7 108145 0 1
+/forumbg/search.php 7 27210 0 0
+/forumen/style.php 6 82260 0 0
+/forumbg/install/index.php 4 9389 0 0
+/forumbg/mobiquo_install.php 4 9560 0 0
+/hostcp 3 26640 2 2
+/forumen/ 3 8448 0 0
+/forumen/viewforum.php 3 8326 0 0
+/forumbg/mobiquo/push.php 1 592 0 0
+/forumbg/install/ 1 3098 1 0
+/forumen/cron.php 3 129 0 0
+/forumen/ucp.php 1 2836 0 0
+END_SIDER

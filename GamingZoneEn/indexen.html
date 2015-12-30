@@ -1,0 +1,422 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>Gaming Zone</title>
+<meta http-equiv="Content-Language" content="ru"> 
+<meta http-equiv="content-type" content="text/html; charset=utf8"> 
+<base target="_blank">
+<link rel="stylesheet" type="text/css" href="CSS/indexstyle.css"/>
+<link href="IMAGES/favicon1.png" rel="shortcut icon" type="image/x-icon" />
+<script type="text/javascript" src="JS/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="JS/bckgrnav.js"></script>
+<script type="text/javascript" src="JS/comnav.js"></script>
+<script type="text/javascript" src="JS/jquery.easing.1.3.min.js"></script>
+</head>
+<body>
+<div id="header">
+	<!-- jQuery handles to place the header background images -->
+	<div id="headerimgs">
+		<div id="headerimg1" class="headerimg"></div>
+		<div id="headerimg2" class="headerimg"></div>
+	</div>
+	<!-- Top navigation on top of the images -->
+	<div id="nav-outer">
+		<div id="navigation">
+			<!--<div id="search">
+				<form>
+					<input type="text" id="searchtxt" />
+					<input type="submit" value="Търси" id="searchbtn" />
+				</form>
+			</div>-->
+			<div id="menu">
+				<ul>
+					<li><a href="indexen.html" target="_self" style="text-decoration:underline;">Home</a></li>
+					<li><a href="mediaen.html" target="_self">Media</a></li>					
+					<li><a href="http://gamingzone.bgschool.bg/forumen/viewforum.php?f=3&sid=ebe92c4ed8e073ca6498849846aa4450" target="_self">News</a></li>					
+					<li><a href="../../forumen" target="_self">Forum</a></li>					
+				</ul>
+			</div>
+		</div>
+		
+		
+				<div id="translate">
+		<a href="../../index.html" target="_self"><img class="c" src="IMAGES/heroesofthestorm/bg.gif" width="18px" height="12px" ></a>
+		<a href="indexen.html" target="_self"><img class="c" src="IMAGES/heroesofthestorm/en.png" width="18px" height="12px" ></a>
+		</div>
+		
+		
+				<script>
+			 $(document).ready(function() {	
+ 
+    var lbutton=$(".c");
+
+	lbutton.hover(function(){
+		$(this).stop().animate({
+		 opacity:1,
+
+		},500);
+	}, function(){
+		$(this).stop().animate({
+		 opacity:0.4,
+
+		},1000);
+	});
+	
+});
+
+		</script>
+		
+		
+		
+		
+		
+	</div>
+	<!-- Slideshow controls -->
+	<div id="headernav-outer">
+		<div id="headernav">
+			<div id="back" class="btn"></div>
+			<div id="control" class="btn"></div>
+			<div id="next" class="btn"></div>
+		</div>
+	</div>
+	<!-- jQuery handles for the text displayed on top of the images -->
+	
+	<div id="headertxt">
+	
+		<p class="caption">
+			<span id="firstline"></span>
+			<a id="secondline" style="cursor:text;"></a>
+		</p>
+		<p class="pictured">
+			Pictured:
+			<a  id="pictureduri" style="cursor:text;"></a>
+		</p>
+	
+	</div>
+	
+</div>
+
+ <!-- Footer Place -->
+ 
+ 
+ 
+ 
+  <div id="footer">
+<ul id="footer_menu">
+	
+	 <!-- <li class="homebutton"><a href="index.html"></a></li>
+	 Games Button -->
+	 <li><a href="#">Role-playing</a>
+	 <ul class="dropup">  <div class="one_column_layout"><div class="col_1">   
+	                            
+							   <!-- <a class="headerlinks">First-Person Shooter</a> 
+								<a class="listlinks">Doom 4</a>
+								<a class="listlinks">Earth No More</a>
+								<a class="listlinks">Furious 4</a>
+								<a class="listlinks">Prey 2</a>
+								<a class="listlinks">Rambo: The Video Game</a>
+					
+								<a class="headerlinks">Third-Person Shooter</a>           
+								<a class="listlinks">Mass Effect 3</a>
+								<a class="listlinks">Transformers: War for Cybertron</a>
+								<a class="listlinks">Inversion</a>
+								<a class="listlinks">Dead Space 3</a>
+								<a class="listlinks">Battlefield III</a>
+								<a class="listlinks">Re-Mission</a>
+								<a class="listlinks">Guns and Robots</a>
+								<a class="listlinks">Mageslayer</a> -->
+								
+								<a class="headerlinks" href="http://bg.wikipedia.org/wiki/MMORPG">MMORPG Games</a> 
+							    <a class="listlinks"style="color:white;font-size:11px;">Most famous MMORPG games:</a>
+								<a class="listlinks" href="http://nw.perfectworld.com/">Neverwinter</a>
+								<a class="listlinks" href="http://www.swtor.com/">Star Wars: The Old Republic</a>
+								<a class="listlinks" href="http://www.ageofwushu.com/">Age of Wushu(Age of Wulin)</a>
+								<a class="listlinks" href="http://na.aiononline.com/en/">Aion</a>
+								<a class="listlinks" href="https://www.guildwars2.com/en/">Guild Wars 2</a>
+								<a class="listlinks" href="http://us.blizzard.com/en-us/games/mists/">World of Warcraft: Mist of Pandaria</a>
+								<a class="listlinks"style="color:white;font-size:11px;">Upcoming 2014 MMORPG games:</a>
+								
+								<a class="listlinks" href="http://eu.battle.net/wow/en/warlords-of-draenor/" style="padding-right:10px;">World of Warcraft: Warlords of Draenor</a>
+								<a class="listlinks" href="http://www.gameofthronesmmo.com/">Game of Thrones: Seven Kingdoms</a>
+								<a class="listlinks" href="http://muonline.webzen.com/main">MU Online 2</a>
+								<a class="listlinks" href="https://account.hirezstudios.com/globalagendagame/">Global Agenda 2</a>
+								<a class="listlinks" href="http://dragonnest.nexon.net/">Dragon Nest 2</a>
+								<a class="listlinks" href="http://www.lineage-eternal.eu/">Lineage Eternal: Twilight Resistance</a>
+								
+     </div>
+	 </div>
+	 </ul>
+	 </li>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 <li><a href="#">Action</a>
+	 <ul class="dropup">  <div class="three_column_layout"><div class="col_3">   
+	 
+							<a class="headerlinks" href="http://en.wikipedia.org/wiki/First-person_shooter">First-person shooter</a> 
+							    <a class="listlinks"style="color:white;font-size:11px;">Most famous FPS games:</a>
+								<a class="listlinks" href="http://www.battlefield.com/battlefield3">Battlefield 3</a>
+								<a class="listlinks" href="http://www.crysis.com/">Crysis 2</a>
+								<a class="listlinks" href="http://www.callofduty.com/mw3">Call of Duty Modern Warfare 3</a>
+								<a class="listlinks" href="http://www.deadislandepidemic.com/">Dead Island</a>
+																								
+								
+								<a class="listlinks"style="color:white;font-size:11px;">Upcoming 2014 FPS games:</a>								
+								<a class="listlinks" href="http://www.battlefield.com/battlefield-4">Battlefield 4</a>
+								<a class="listlinks" href="http://www.titanfall.com/">Titanfall</a>
+								<a class="listlinks" href="http://www.callofduty.com/ghosts">Call of Duty:Ghosts</a>
+								<a class="listlinks" href="http://www.killzone.com/en_GB/">Killzone:Shadow Fall</a>
+								
+								
+								
+								<a class="headerlinks" href="http://en.wikipedia.org/wiki/Third-person_shooter">Third-person shooter</a> 
+							    <a class="listlinks"style="color:white;font-size:11px;">Most famous TPS games:</a>
+								<a class="listlinks" href="http://uncharted.wikia.com/wiki/Uncharted_2:_Among_Thieves">Uncharted 2: Among Thieves</a>
+								<a class="listlinks" href="http://www.gametrailers.com/games/p4hyx3/metal-gear-solid-4--guns-of-the-patriots"style="padding-right:10px;">Metal Gear Solid 4: Guns of the Patriots</a>
+								<a class="listlinks" href="http://www.ea.com/mass-effect-2">Mass Effect 2</a>
+								<a class="listlinks" href="http://www.gametrailers.com/games/grnff1/red-dead-redemption">Red Dead Redemption</a>																
+																
+								<a class="listlinks"style="color:white;font-size:11px;">Upcoming 2014 TPS games:</a>								
+								<a class="listlinks" href="http://www.edgeofreality.com/">Edge of Reality</a>
+								<a class="listlinks" href="http://www.fpsreport.com/official-sites/306-mercenary-ops-mercenary-online-mars-final-mission-global-mission-official-sites.html">Mercenary Ops/M.A.R.S</a>
+								<a class="listlinks" href="http://www.ghostrecon.net/">Ghost Recon Online</a>
+								<a class="listlinks" href="masseffect.bioware.com/">Mass Effect 3</a> 
+								<a class="listlinks" href="https://madmaxgame.com/en-gb/">Mad Max</a> 
+								
+     </div>
+	 </div>
+	 </ul>
+	 </li>
+	 
+	 
+	 
+	 
+	 
+	 
+	  <li><a href="#">Racing</a>
+	 <ul class="dropup">  <div class="one_column_layout"><div class="col_1">   
+	 
+								<a class="headerlinks" href="http://en.wikipedia.org/wiki/Racing_video_game">Racing Games</a> 
+							    <a class="listlinks"style="color:white;font-size:11px;padding-right:10px;">Most famous Racing games :</a>
+								<a class="listlinks" href="http://www.needforspeed.com/rivals">Need for Speed Rivals</a>
+								<a class="listlinks" href="http://www.gridgame.com/en-gb">GRID 2</a>
+								<a class="listlinks" href="http://www.needforspeed.com/the-run">Need for Speed: The Run</a>
+								<a class="listlinks" href="http://www.gametrailers.com/games/9j3q9m/dirt-3">DiRT 3</a>
+																								
+								
+								<a class="listlinks"style="color:white;font-size:11px;margin-right:15px;">Upcoming 2014 Racing games:</a>								
+								<a class="listlinks" href="http://thecrew-game.ubi.com/portal/en-US/home/">The Crew</a>
+								<a class="listlinks" href="http://www.formula1-game.com/uk/home">F1 2013</a>
+								<a class="listlinks" href="http://rfactor.net/web/rf2/">rFactor2</a>
+								<a class="listlinks" href="http://games.gamepressure.com/game_info.asp?ID=14822">GTR 3</a>
+							
+								
+     </div>
+	 </div>
+	 </ul>
+	 </li>
+	 
+	
+	 
+	 
+	 
+	  <li><a href="#">Sports</a>
+	 <ul class="dropup">  <div class="one_column_layout"><div class="col_1">   
+	 
+								<a class="headerlinks" href="http://en.wikipedia.org/wiki/Sports_game">Sport games</a> 
+							    <a class="listlinks"style="color:white;font-size:11px;">Most famous Sport games:</a>
+								<a class="listlinks" href="http://www.easports.com/fifa/fifa14">FIFA 14</a>
+								<a class="listlinks" href="http://www.easports.com/nba-live">NBA Live 14</a>
+								<a class="listlinks" href="http://www.gamespot.com/poker-night-2/">Poker Night 2</a>
+								<a class="listlinks" href="https://pes.konami.com/">Pro Evolution Soccer 2014</a>
+																								
+								
+								<a class="listlinks"style="color:white;font-size:11px;margin-right:15px;">Upcoming 2014 Sport games:</a>				
+								<a class="listlinks" href="http://www.easports.com/ufc">EA Sports UFC</a>
+								<a class="listlinks" href="http://games.gamepressure.com/game_info.asp?ID=19823"style="padding-right:10px;">IHF Handball Challenge 13</a>
+								<a class="listlinks" href="http://snowthegame.com/">Snow</a>
+								<a class="listlinks" href="http://snowthegame.com/">MLB 14: The Show</a>
+							
+								
+     </div>
+	 </div>
+	 </ul>
+	 </li>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 <li><a href="#">Strategy</a>
+	 <ul class="dropup">  <div class="one_column_layout"><div class="col_1">   
+	 
+								<a class="headerlinks" href="http://en.wikipedia.org/wiki/Strategy_game">Strategy Games</a> 
+							    <a class="listlinks"style="color:white;font-size:11px;">Most famous Strategy games:</a>
+								<a class="listlinks" href="http://www.civilization5.com/">Civilization V</a>
+								<a class="listlinks" href="http://www.totalwar.com/en_us/">Total War Series</a>
+								<a class="listlinks" href="http://www.crusaderkings.com/">Crusader Kings II </a>
+								<a class="listlinks" href="http://www.battle.net/sc2/">Starcraft II</a>
+								<a class="listlinks" href="http://www.companyofheroes.com/en_us/">Company of Heroes</a>
+																								
+								
+								<a class="listlinks"style="color:white;font-size:11px;padding-right:10px;">Upcoming 2014 Strategy games:</a>								
+								<a class="listlinks" href="http://www.shiningrocksoftware.com/">Banished</a>
+								<a class="listlinks" href="http://en.wikipedia.org/wiki/Stronghold_Crusader_2">Stronghold: Crusader II</a>
+								<a class="listlinks" href="http://www.heroesofthestorm.com/en-us">Heroes of the Storm</a>
+								<a class="listlinks" href="http://starcraft.wikia.com/wiki/StarCraft_II:_Legacy_of_the_Void">StarCraft II: Legacy of the Void</a>
+								<a class="listlinks" style="padding-right:10px;" href="http://www.popcap.com/plants-vs-zombies-2">Plants vs. Zombies 2: It's About Time</a>
+							
+								
+     </div>
+	 </div>
+	 </ul>
+	 </li>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 <!-- Profile button 
+	 <li><a href="#">Profile</a>
+	    <ul class="dropup">  <div class="three_column_layout">
+		    
+			<div class="col_3">
+			  <h2>Example of 3 columns</h2>
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="col_1">
+			  <p>I love tuna so much..mn drop</p>
+			</div>
+			
+			<div class="col_1">
+			  <p>I love Gantz so much..mn drop.. mba</p>
+			</div>
+			
+			<div class="col_1">
+		      <p>I love tour mama so much..mn drop</p>
+			</div>
+			
+		<div class="clear"></div>
+			
+			<div class="col_1">
+		      <p class="black_box">I love a single column black box</p>
+			</div>
+			
+			<div class="col_2">
+		      <p>I love tour mama so much..mn drop blox box loirea</p>
+			</div>
+		
+		<div class="clear"></div>	
+		     
+			<div class="col_3">
+			    <h2>My Profile</h2>
+			</div>
+			
+		<div class="clear"></div>
+		
+		
+		    <div class="col_3">
+			    <p>
+				   <img src="images/DSC_0197.jpg" class="img_left whiteborder"/>
+				   <a href="#" style="display:inline;font-weight:bold;color:white;">Daniel Gospodinow</a>
+				   <a href="#">Read More..</a>
+				</p>
+			</div>
+		
+		</div>
+	  </ul>	
+	</li>	
+		-->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+<!-- Stores button 
+  <li><a href="#">Stores</a>
+       <ul id="dropup">
+	       <li><a href="#">Origin</a></li>
+	       <li><a href="#">Razer</a></li>
+	       <li><a href="#">GamingGear</a></li>
+	       <li><a href="#">ESL Shop</a></li>
+	       <li><a href="#"">Deep Silver</a></li>	 
+	       <li><a href="#">Ozone</a>
+		      <!--<ul id="drophor">
+			    <li><a href="#">Mouses</a></li>
+			    <li><a href="#">Keyboards</a></li>
+			    <li><a href="#">Laptops</a></li>
+			    <li><a href="#">Computers</a></li>
+		      </ul>
+		   </li>
+	   </ul>
+  </li>
+ -->
+  
+<!-- Log Out button 	
+	
+	<li class="right"><a href="#">Log Out</a></li>	
+	<li class="right"><a href="#">Sign In</a></li>	
+	<li class="right"><a href="#">Register</a></li>	
+	
+</ul>
+-->
+<!--
+<ul id="notifications">
+   <li><a  href="#" onclick="window.open('https://www.facebook.com/DanielGospodinow');
+    window.open('https://www.facebook.com/gosho.angelow');" class="notificationicons">  <img src="images/facebook.png" width="24px" height="24px" style="margin-top:3px;"> <!-- <span> <img src="DSC_0197" style="float:left; width:24px; margin-right:5px;">  <div style="display:inline; color#cc0000; font-weight:bold;"> Aneliq Drop</div> liked your dick.Mn drop   <hr style="border:none;border-bottom:1px solid #777;"/>   <img src="DSC_0197" style="float:left; width:24px; margin-right:5px;">  <div style="display:inline; color#cc0000; font-weight:bold;"> Aneliq Drop</div> liked your dick.Mn drop   <hr style="border:none;border-bottom:1px solid #777;"/>   <img src="DSC_0197" style="float:left; width:24px; margin-right:5px;">  <div style="display:inline; color#cc0000; font-weight:bold;"> Aneliq Drop</div> liked your dick.Mn drop   <hr style="border:none;border-bottom:1px solid #777;"/>   <img src="DSC_0197" style="float:left; width:24px; margin-right:5px;">  <div style="display:inline; color#cc0000; font-weight:bold;"> Aneliq Drop</div> liked your dick.Mn drop   <hr style="border:none;border-bottom:1px solid #777;"/></span> </a></li>
+   <li><a href="#" onclick="window.open('https://twitter.com/DGospodinow');window.open('https://twitter.com/Goomooo');" class="notificationicons">  <img src="images/twitter.png" width="24px" height="24px" style="margin-top:3px;">  </a></li>
+   <li><a href="#" onclick="window.open('http://www.youtube.com/channel/UCtH2rKGB5e94LNPn-nh6f7Q'); window.open('http://www.youtube.com/channel/UC56sSLbVFBUmngNV-Dt5Tng');" class="notificationicons">  <img src="images/youtube.png" width="24px" height="24px" style="margin-top:3px;">  </a></li>
+   <li><a href="#" onclick="window.open('https://plus.google.com/u/0/105112124117196892170/posts');" class="notificationicons">  <img src="images/google.png" width="24px" height="24px" style="margin-top:3px;">  </a></li>
+</ul>
+
+-->
+
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div id="bar">
+		<a style="cursor:pointer;"  onclick="window.open('https://www.facebook.com/DanielGospodinow');
+    window.open('https://www.facebook.com/gosho.angelow');" class="notificationicons"><img src="IMAGES/facebook.jpg" alt="Follow us on Facebook" align="left" class="l"></a>
+		<a style="cursor:pointer;"  onclick="window.open('https://twitter.com/DGospodinow');window.open('https://twitter.com/Goomooo');"><img src="IMAGES/twitter.jpg" alt="Follow us on Twitter" align="left" class="l"></a>
+		<a style="cursor:pointer;" onclick="window.open('http://www.youtube.com/channel/UCtH2rKGB5e94LNPn-nh6f7Q'); window.open('http://www.youtube.com/channel/UC56sSLbVFBUmngNV-Dt5Tng');"><img src="IMAGES/youtube.jpg" alt="Follow us on Youtube" align="left" class="l"></a>
+		<a style="cursor:pointer;" onclick="window.open('https://plus.google.com/u/0/105112124117196892170/posts');"><img src="IMAGES/google_plus.jpg" alt="Follow us on Google+" align="left" class="l"></a>
+	</div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</body>
+</html>
